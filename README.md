@@ -15,3 +15,5 @@
 結果にコミット！！
 
 https://www.youtube.com/watch?v=aALuowTWV5A
+
+動画の追加も大丈夫！！
