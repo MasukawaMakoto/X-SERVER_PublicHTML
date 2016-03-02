@@ -1,3 +1,5 @@
+<!--HELLOOO-->
+
 <!--{*
 /*
  * This file is part of EC-CUBE
