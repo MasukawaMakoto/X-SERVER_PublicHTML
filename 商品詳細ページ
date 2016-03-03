@@ -130,19 +130,8 @@ $('.bxslider').bxSlider({
             <h2 class="margin-none"><!--{$arrProduct.name|h}--></h2>
             
                        
-            <!--★通常価格★--> 
-            <!--{if $arrProduct.price01_min_inctax > 0}-->
-            <dl class="normal_price">
-              <dt><!--{$smarty.const.NORMAL_PRICE_TITLE}-->(税込)：</dt>
-              <dd class="price"> <span id="price01_default"><!--{strip}--> 
-                <!--{if $arrProduct.price01_min_inctax == $arrProduct.price01_max_inctax}--> 
-                <!--{$arrProduct.price01_min_inctax|number_format}--> 
-                <!--{else}--> 
-                <!--{$arrProduct.price01_min_inctax|number_format}-->～<!--{$arrProduct.price01_max_inctax|number_format}--> 
-                <!--{/if}--> 
-                <!--{/strip}--></span><span id="price01_dynamic"></span> 円 </dd>
-            </dl>
-            <!--{/if}--> 
+            <!--★コメント★-->
+                            <div class="listcomment"><!--{$arrProduct.main_list_comment|h|nl2br}--></div> 
             
             <!--★販売価格★-->
             <dl class="sale_price">
