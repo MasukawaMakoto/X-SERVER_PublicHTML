@@ -129,18 +129,7 @@ $('.bxslider').bxSlider({
             <!--★商品名★-->
             <h2 class="margin-none"><!--{$arrProduct.name|h}--></h2>
             
-            <!--★商品コード★-->
-            <dl class="product_code">
-              <dt>商品コード：</dt>
-              <dd> <span id="product_code_default"> 
-                <!--{if $arrProduct.product_code_min == $arrProduct.product_code_max}--> 
-                <!--{$arrProduct.product_code_min|h}--> 
-                <!--{else}--> 
-                <!--{$arrProduct.product_code_min|h}-->～<!--{$arrProduct.product_code_max|h}--> 
-                <!--{/if}--> 
-                </span><span id="product_code_dynamic"></span> </dd>
-            </dl>
-            
+                       
             <!--★通常価格★--> 
             <!--{if $arrProduct.price01_min_inctax > 0}-->
             <dl class="normal_price">
