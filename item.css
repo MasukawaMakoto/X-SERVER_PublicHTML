@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*======================================
+商品詳細
+======================================*/
+
+div#detail-warp .listcomment {
+	margin: 0.5em 0 1em !important;
+}
+
+div.main_comment {
+	width: 100%;
+	background-color: #fff !important;
+}
+
+div.main_comment img {
+	display: block;
+}
+
+div.main_comment table {
+	width: 95%;
+	margin: 1em auto !important;
+}
+
+div.main_comment td, div.main_comment th {
+	padding: 10px;
+	line-height: 2rem;
+	border: 1px solid #ccc;
+}
+
+div.main_comment tr:nth-child(even) {
+	background: #f3f3f3;
+}
+
+div.main_comment img {
+	width: 95%;
+	height: 95%;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 980px) {
+
+div#slide-area {
+	width: 350px !important;
+	float: left;
+	margin-right: 5px;
+}
+}
