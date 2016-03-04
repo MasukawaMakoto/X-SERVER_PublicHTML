@@ -47,3 +47,15 @@ div#slide-area {
 	margin-right: 5px;
 }
 }
+
+/*======================================
+商品一覧
+======================================*/
+@media screen and (min-width: 768px) {
+	#product-list-wrap div.list_area > a.thumbnail{
+		height: 400px;
+	}
+	#product-list-wrap div.caption{
+		height: 200px;
+	}
+}
